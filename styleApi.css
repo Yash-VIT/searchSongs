@@ -21,7 +21,7 @@ body{
       -moz-background-size: cover;
       -o-background-size: cover;
       /* height: auto; */
-      height:165vh;
+      height:200vh;
     }
     nav{
         margin-right: 10%;
@@ -42,7 +42,7 @@ body{
   }
 
 
-div{
+#container1{
     /* display: flex; */
     /* position: fixed; */
     top: 35%;
@@ -51,6 +51,19 @@ div{
     background-color: rgba(250, 235, 215, 0.4);
     padding: 20px;
     border-radius: 10px;
+    margin: 20px;
+}
+
+#container2{
+    /* display: flex; */
+    /* position: fixed; */
+    top: 35%;
+    left: 30%;
+    /* align-items: center; */
+    background-color: rgba(247, 215, 250, 0.822);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 h1{
@@ -67,7 +80,7 @@ input{
     font-weight: bold;
 }
 
-#results{
+ul{
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: medium;
     font-weight: bolder;
@@ -77,4 +90,15 @@ input{
 a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
+}
+
+h4{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+}
+
+nav{
+    margin-left: 1.8%;
+    margin-right: 1.8%;
+    border-radius: 10px;
 }
